@@ -3,4 +3,4 @@ const router = require("express").Router(),
 
 router.use(`/user`, user)
 
-module.exports = router;
+module.exports = router
