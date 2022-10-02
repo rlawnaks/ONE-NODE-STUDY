@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.json({ result: true })
 })
 
-const port = 8080;
+const port = 8000;
 app.listen(port, () => {
     console.log(`SERVER ON! PORT : ${port}`)
 })
